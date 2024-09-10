@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:handlers="clr-namespace:FarmTrack.Handlers"
+             x:Class="FarmTrack.Views.Login.LoginView"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <Grid RowDefinitions="1*,8*,1*"
+              VerticalOptions="FillAndExpand">
+
+            <Frame BackgroundColor="{StaticResource Secondary}" Grid.Row="0" HorizontalOptions="EndAndExpand"
+                   Padding="0"
+                   Margin="0,-80,-80,0"
+                   HeightRequest="240"
+                   WidthRequest="240" CornerRadius="125" />
+            <Frame BackgroundColor="{StaticResource ButtonColor}" Grid.Row="0" HorizontalOptions="EndAndExpand"
+                   Padding="0"
+                   Margin="0,-80,-80,0"
+                   HeightRequest="220"
+                   WidthRequest="220" CornerRadius="120" />
+
+            <Frame BackgroundColor="{StaticResource Primary}" Grid.Row="0" HorizontalOptions="EndAndExpand"
+                   Padding="0"
+                   Margin="0,-120,-120,0"
+                   HeightRequest="240"
+                   WidthRequest="240" CornerRadius="125" />
+
+
+            <Frame BackgroundColor="{StaticResource Secondary}" Grid.Row="2"
+                   VerticalOptions="EndAndExpand"
+                   HorizontalOptions="StartAndExpand"
+                   Padding="0"
+                   Margin="0,0,0,-150"
+                   HeightRequest="250"
+                   WidthRequest="250" CornerRadius="125" />
+            <Frame BackgroundColor="{StaticResource ButtonColor}" Grid.Row="2"
+                   VerticalOptions="EndAndExpand"
+                   HorizontalOptions="StartAndExpand"
+                   Padding="0"
+                   Margin="0,0,-60,-80"
+                   HeightRequest="200"
+                   WidthRequest="200" CornerRadius="125" />
+
+            <Frame BackgroundColor="{x:StaticResource Primary}"
+                   VerticalOptions="EndAndExpand"
+                   Grid.Row="2"
+                   HorizontalOptions="StartAndExpand"
+                   Padding="0"
+                   Margin="-250,0,0,-80"
+                   HeightRequest="240"
+                   WidthRequest="450"
+                   CornerRadius="250"/>
+
+            <StackLayout Grid.Row="1" VerticalOptions="CenterAndExpand">
+                <Frame WidthRequest="300"
+                       VerticalOptions="CenterAndExpand"
+                       BackgroundColor="White"
+                       BorderColor="{StaticResource Primary}">
+
+                    <StackLayout Spacing="25">
+                        <StackLayout Spacing="5">
+                            <Label Text="UserName"
+                                   TextColor="Black" />
+                            <Frame BorderColor="{StaticResource Gray100}"
+                                   Padding="8,0"
+                                   BackgroundColor="White"
+                                   Margin="0">
+                                <handlers:BorderlessEntry
+                                    Margin="{OnPlatform iOS='0,10'}"/>
+                            </Frame>
+                        </StackLayout>
+                        <StackLayout Spacing="5"
+                                     Margin="0,-20,0,0">
+                            <Label Text="Password"
+                                   TextColor="Black" />
+                            <Frame BorderColor="{StaticResource Gray100}"
+                                   Padding="8,0"
+                                   BackgroundColor="White">
+                                <handlers:BorderlessEntry IsPassword="True" 
+                                                          Margin="{OnPlatform iOS='0,10'}"/>
+                            </Frame>
+                        </StackLayout>
+
+                        <Button Text="Login" BackgroundColor="{StaticResource ButtonColor}" TextColor="White"
+                                Clicked="Button_OnClicked" />
+                        <StackLayout Orientation="Horizontal" Spacing="10">
+                            <Label Text="Don't have an account?"
+                                   TextColor="{StaticResource Gray400}" />
+                            <Label Text="Sign Up" TextColor="{StaticResource ButtonColor}" BackgroundColor="Transparent">
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="TapGestureRecognizer_OnTapped" />
+                                </Label.GestureRecognizers>
+                            </Label>
+                        </StackLayout>
+                    </StackLayout>
+
+                </Frame>
+            </StackLayout>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

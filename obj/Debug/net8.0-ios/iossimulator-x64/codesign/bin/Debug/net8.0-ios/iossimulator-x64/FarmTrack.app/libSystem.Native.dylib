@@ -1,0 +1,1 @@
+-v --force --timestamp=none --sign - /Users/rahulhajare/Projects/Demo/FarmTrack/FarmTrack/bin/Debug/net8.0-ios/iossimulator-x64/FarmTrack.app/libSystem.Native.dylib

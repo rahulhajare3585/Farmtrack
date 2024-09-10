@@ -1,0 +1,59 @@
+is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
+build_property.TargetFramework = net8.0-android
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = FarmTrack
+build_property.ProjectDir = /Users/rahulhajare/Projects/Demo/FarmTrack/FarmTrack/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[/Users/rahulhajare/Projects/Demo/FarmTrack/FarmTrack/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmTrack.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[/Users/rahulhajare/Projects/Demo/FarmTrack/FarmTrack/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmTrack.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[/Users/rahulhajare/Projects/Demo/FarmTrack/FarmTrack/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmTrack.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
+
+[/Users/rahulhajare/Projects/Demo/FarmTrack/FarmTrack/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmTrack.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Styles.xaml
+
+[/Users/rahulhajare/Projects/Demo/FarmTrack/FarmTrack/Views/Login/LoginView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmTrack.Views.Login.LoginView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/Login/LoginView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/Login/LoginView.xaml
+
+[/Users/rahulhajare/Projects/Demo/FarmTrack/FarmTrack/Views/Login/RegisterView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmTrack.Views.Login.RegisterView.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/Login/RegisterView.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/Login/RegisterView.xaml
+
+[/Users/rahulhajare/Projects/Demo/FarmTrack/FarmTrack/Views/Main/HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = FarmTrack.Views.Main.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views/Main/HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views/Main/HomePage.xaml

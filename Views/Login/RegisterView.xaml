@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FarmTrack.Views.Login.RegisterView">
+    <ContentPage.Content>
+        <Grid RowDefinitions="1*,8*,1*"
+              VerticalOptions="FillAndExpand">
+               <Image Source="back_icon"
+                      HeightRequest="40"
+                      WidthRequest="40"
+                      HorizontalOptions="Start"/>
+        <Frame BackgroundColor="{StaticResource Secondary}" Grid.Row="0" HorizontalOptions="EndAndExpand"
+               Padding="0"
+               Margin="0,-80,-80,0"
+               HeightRequest="250"
+               WidthRequest="250" CornerRadius="125" />
+
+        <Frame BackgroundColor="{x:StaticResource Primary}" Grid.Row="0" HorizontalOptions="EndAndExpand"
+               Padding="0"
+               Margin="0,-120,-120,0"
+               HeightRequest="250"
+               WidthRequest="250" CornerRadius="125" />
+
+        
+
+
+        <Frame BackgroundColor="{StaticResource Secondary}" Grid.Row="2"
+               VerticalOptions="EndAndExpand"
+               HorizontalOptions="StartAndExpand"
+               Padding="0"
+               Margin="0,0,0,-180"
+               HeightRequest="250"
+               WidthRequest="250" CornerRadius="125" />
+
+        <Frame BackgroundColor="{x:StaticResource Primary}"
+               VerticalOptions="EndAndExpand"
+               Grid.Row="2"
+               HorizontalOptions="StartAndExpand"
+               Padding="0"
+               Margin="0,0,0,-200"
+               HeightRequest="250"
+               WidthRequest="250" CornerRadius="125" />
+
+              <StackLayout Grid.Row="1" VerticalOptions="CenterAndExpand">
+                     <Frame WidthRequest="300"
+                            VerticalOptions="CenterAndExpand"
+                            BorderColor="{StaticResource Primary}">
+               
+                            <StackLayout Spacing="15">
+                                   <StackLayout Spacing="5">
+                                          <Label Text="Email/UserName"/>
+                                          <Entry />
+                                   </StackLayout>
+                                   <StackLayout Spacing="5">
+                                          <Label Text="Password"/>
+                                          <Entry IsPassword="True" />
+                                   </StackLayout>
+                                   <StackLayout Spacing="5">
+                                          <Label Text="Confirm Password"/>
+                                          <Entry IsPassword="True" />
+                                   </StackLayout>
+                      
+                                   <Button Text="Register" BackgroundColor="{StaticResource Primary}" TextColor="White" 
+                                           Clicked="Button_OnClicked"/>
+                            </StackLayout>
+               
+                     </Frame>
+              </StackLayout>
+        
+    </Grid>
+    </ContentPage.Content>
+</ContentPage>
